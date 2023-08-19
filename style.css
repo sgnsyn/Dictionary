@@ -564,7 +564,7 @@ body {
     flex-direction: column;
   }
 }
-@media (max-width: 1000px) {
+@media (min-width: 601) and (max-width: 1000px) {
   :root {
     font-size: calc(1.5vw + 10px);
 
@@ -576,6 +576,7 @@ body {
     --theme-font-size: 0.5rem;
   }
 }
+
 @media (min-width: 1001px) {
   .app {
     max-width: 50vw;
