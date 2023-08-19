@@ -548,6 +548,8 @@ body {
 @media (max-width: 600px) {
   :root {
     font-size: calc(2vw + 10px);
+     --font-search: 1.25rem;
+    --theme-font-size: 0.75rem;
   }
   body {
     padding-inline: 0;
@@ -560,6 +562,7 @@ body {
 @media (min-width: 601px) and (max-width: 1025px) {
   :root {
     font-size: calc(1.5vw + 15px);
+    --font-search: 1.5rem;
   }
 }
 @media (min-width: 1026px) {
